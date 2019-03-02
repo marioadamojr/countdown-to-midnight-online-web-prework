@@ -7,5 +7,3 @@ def countdown
   end
   puts hny
 end
-
-
