@@ -13,10 +13,11 @@ end
 #write your code here
 
 def countdown_with_sleep(number)
+  sleep(5)
   hny = "HAPPY NEW YEAR!"
   while number >= 1
     puts "#{number} SECOND(S)!"
-    number -= 2
+    number -= 1
   end
   hny
 end
